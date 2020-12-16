@@ -12,12 +12,16 @@ html {
     font-family: "Monument Extended", Arial, Helvetica, sans-serif;
 }
 
+body{
+	width: 100%;
+}
+
 .logo {
     background: url(../img/logo/logo-dark.svg);
 }
 
 nav ul li a {
-      color: #000;
+    color: #000;
 }
 
 .cool-link::after{

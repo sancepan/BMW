@@ -14,10 +14,11 @@ html {
 
 body{
 	width: 100%;
+	min-width: 430px;
 }
 
-.logo {
-    background: url(../img/logo/logo-dark.svg);
+.logo img{
+    width: 100%;
 }
 
 nav ul li a {
@@ -39,10 +40,8 @@ nav ul li a {
 
 .container {
 	/* max-width: 1234px; */
-	margin-left: 50%;
-	padding: 0 var(--gutter);
 	margin: 0 auto;
-	widows: 100%;
+	width: 100%;
 	padding: 2em;
 	padding-bottom: 80px;
 }

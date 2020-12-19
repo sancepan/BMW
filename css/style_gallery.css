@@ -9,8 +9,8 @@ html {
     font-family: "Monument Extended", Arial, Helvetica, sans-serif;
 }
 
-.logo {
-    background: url(../img/logo/logo-light.svg);
+.logo img{
+      width: 100%;
 }
 
 nav ul li a {

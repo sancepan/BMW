@@ -32,6 +32,7 @@ nav ul li a {
 
 
 body {
+    min-width: 420px;
     color: white;
     margin: 0;
     padding: 0;
@@ -100,11 +101,11 @@ header::before {
 }
 
 .grid_container_news{
-	width: 100%;
-	display: grid;
-	position: relative;
-	grid-gap: var(--gutter);
-	grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .news{
@@ -134,11 +135,11 @@ header::before {
 }
 
 .grid_container_footer{
-	width: 100%;
-	display: grid;
-	position: relative;
-	grid-gap: var(--gutter);
-	grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .bmw_history_grid{
@@ -182,25 +183,25 @@ header::before {
 
 @media screen and (max-width: 1700px) {
   .grid_container_news{
-  	grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .grid_container_footer{
-  	grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media screen and (max-width: 1300px) {
   .grid_container_news{
-  	grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .grid_container_footer{
-  	grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .bmw_history_grid{
-  	grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 15px;
   }
 
@@ -211,15 +212,15 @@ header::before {
 
 @media screen and (max-width: 900px) {
   .grid_container_news{
-  	grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .grid_container_footer{
-  	grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .bmw_history_grid{
-  	grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .bmw_history_grid div button {
@@ -248,42 +249,42 @@ header::before {
 }
 
 .black h1{
-	margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .more_news{
-	color: white;
+  color: white;
 }
 
 .more_news:hover{
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .white_container{
-	background-color: white;
-	color: black;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 10%;
-	padding-right: 10%;
+  background-color: white;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .black_container{
-	background-color: black;
-	position: absolute;
-	width: 120%;
-	left: -10%;
-	padding-top: 30px;
-	padding-bottom: 30px;
+  background-color: black;
+  position: absolute;
+  width: 120%;
+  left: -10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer{
-	padding-top:180px;
-	padding-bottom: 180px;
+  padding-top:180px;
+  padding-bottom: 180px;
 }
 
 .container_1{
@@ -301,15 +302,15 @@ a{
 }
 
 .grid_container_footer ul li{
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .grid_container_footer ul{
-	padding:0;
+  padding:0;
 }
 
 .grid_container_footer p{
-	border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 .social-media ul li{
@@ -324,7 +325,7 @@ a{
 }
 
 .social-media ul {
-	margin-top: 80px;
+  margin-top: 80px;
     padding-left: 0;
 }
 
@@ -338,22 +339,3 @@ a{
 .grid_container_footer li:nth-child(n+4) {
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
